@@ -16,3 +16,13 @@ FILES:
 4) matrixOpp.h - header file for the class responsible for matrix opperations
 5) matrixOpp.cpp - Given matrixes will return a pointer to a new matrix after completeing a specified matrix operation to make a new matix. Opperations can be addition, multiplication, and transpose.
 # C
+matrixOpp.c - Able to complete matrix opperations with given matrixes made through the Struct. The code outputs the opperations A B C go through to make D matrix.
+
+
+BUILD INSTRUCTIONS: This repository has 2 seperate programs, C and C++. C will only have matrixOpp.c . C++ needs driver.cpp, matrix.h, matrix.cpp, matrixOpp.h, matrixOpp.cpp . 
+
+
+TESTING METHODOLOGY: Program should only run set print functions displaying how matrix D is built.
+
+
+
