@@ -13,6 +13,21 @@ Matrix::Matrix(int row, int col) {
 		matrix[i] = new int[col];
 	}
 }
+//Copy Constructor
+Matrix::Matrix(const Matrix& other) {
+	//Copies the rows and columns
+	rows = other.rows;
+	cols = other.cols;
+	//Makes the new matrix
+	matrix = new int* [rows];
+	//Loops through the matrix
+	for (int i = 0; i < rows; i++) {
+		matrix[i] = new int[cols];
+		for (int j = 0; j < cols; j++) {
+			matrix[i][j] = other.matrix[i][j];
+		}
+	}
+}
 //Matrix Deconstructor
 Matrix::~Matrix() {
 	//Deallocating all matrixes made
