@@ -5,8 +5,6 @@
 #include "math.h"
 using namespace std;
 
-//Used for telling what to use when printing
-enum matrixType { A, B, C, D, CT, BC };
 
 class Matrix{
 
