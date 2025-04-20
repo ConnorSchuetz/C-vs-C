@@ -12,6 +12,8 @@ public:
 	
 	//Matrix Constructor
 	Matrix(int rows, int cols);
+	//Copy constructor
+	Matrix(const Matrix& other);
 	//Deallocate dynamic memory
 	~Matrix();
 	//Displays Matrix
